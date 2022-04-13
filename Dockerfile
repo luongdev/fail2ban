@@ -36,7 +36,7 @@ RUN apk --update --no-cache add \
 
 COPY entrypoint.sh /entrypoint.sh
 
-ENV TZ="Asia/Ho_Chi_Minh"
+ENV TZ=Asia/Ho_Chi_Minh
 
 VOLUME [ "/data" ]
 
